@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 10,
-  "updatedAt": "2026-09-30",
+  "catalogVersion": 11,
+  "updatedAt": "2026-10-01",
   "protocols": {
     "usb-pd": "USB Power Delivery (USB-C PD)",
     "pps": "PPS (carga rápida programable, variante de USB-PD)",
     "qc": "Qualcomm Quick Charge",
     "xiaomi-turbo": "Xiaomi MI Turbo Charge (propietario)",
     "qi": "Carga inalámbrica Qi",
-    "qi2": "Carga inalámbrica Qi2 (magnética)"
+    "qi2": "Carga inalámbrica Qi2 (magnética)",
+    "supervooc": "OnePlus/OPPO SUPERVOOC (propietario)"
   },
   "devices": [
     {
@@ -435,6 +436,1299 @@
       "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C de 5 A.",
       "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C cable.",
       "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD PPS)"
+    },
+    {
+      "id": "samsung-galaxy-a05s",
+      "brand": "Samsung",
+      "name": "Galaxy A05s",
+      "match": {
+        "modelPrefixes": [
+          "SM-A057"
+        ],
+        "models": [
+          "Galaxy A05s"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a15",
+      "brand": "Samsung",
+      "name": "Galaxy A15",
+      "match": {
+        "modelPrefixes": [
+          "SM-A155"
+        ],
+        "models": [
+          "Galaxy A15"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a15-5g",
+      "brand": "Samsung",
+      "name": "Galaxy A15 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A156"
+        ],
+        "models": [
+          "Galaxy A15 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a16",
+      "brand": "Samsung",
+      "name": "Galaxy A16",
+      "match": {
+        "modelPrefixes": [
+          "SM-A165"
+        ],
+        "models": [
+          "Galaxy A16"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a16-5g",
+      "brand": "Samsung",
+      "name": "Galaxy A16 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A166"
+        ],
+        "models": [
+          "Galaxy A16 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a25",
+      "brand": "Samsung",
+      "name": "Galaxy A25 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A256"
+        ],
+        "models": [
+          "Galaxy A25 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a26",
+      "brand": "Samsung",
+      "name": "Galaxy A26 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A266"
+        ],
+        "models": [
+          "Galaxy A26 5G"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a34",
+      "brand": "Samsung",
+      "name": "Galaxy A34 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A346"
+        ],
+        "models": [
+          "Galaxy A34 5G"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a35",
+      "brand": "Samsung",
+      "name": "Galaxy A35 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A356"
+        ],
+        "models": [
+          "Galaxy A35 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a36",
+      "brand": "Samsung",
+      "name": "Galaxy A36 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A366"
+        ],
+        "models": [
+          "Galaxy A36 5G"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a55",
+      "brand": "Samsung",
+      "name": "Galaxy A55 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A556"
+        ],
+        "models": [
+          "Galaxy A55 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-a56",
+      "brand": "Samsung",
+      "name": "Galaxy A56 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A566"
+        ],
+        "models": [
+          "Galaxy A56 5G"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s23",
+      "brand": "Samsung",
+      "name": "Galaxy S23",
+      "match": {
+        "modelPrefixes": [
+          "SM-S911"
+        ],
+        "models": [
+          "Galaxy S23"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 25,
+      "capacityMah": 3900,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s23-plus",
+      "brand": "Samsung",
+      "name": "Galaxy S23+",
+      "match": {
+        "modelPrefixes": [
+          "SM-S916"
+        ],
+        "models": [
+          "Galaxy S23+"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 45,
+      "capacityMah": 4700,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s23-ultra",
+      "brand": "Samsung",
+      "name": "Galaxy S23 Ultra",
+      "match": {
+        "modelPrefixes": [
+          "SM-S918"
+        ],
+        "models": [
+          "Galaxy S23 Ultra"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s23-fe",
+      "brand": "Samsung",
+      "name": "Galaxy S23 FE",
+      "match": {
+        "modelPrefixes": [
+          "SM-S711"
+        ],
+        "models": [
+          "Galaxy S23 FE"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 25,
+      "capacityMah": 4500,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s24-fe",
+      "brand": "Samsung",
+      "name": "Galaxy S24 FE",
+      "match": {
+        "modelPrefixes": [
+          "SM-S721"
+        ],
+        "models": [
+          "Galaxy S24 FE"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 4700,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s25",
+      "brand": "Samsung",
+      "name": "Galaxy S25",
+      "match": {
+        "modelPrefixes": [
+          "SM-S931"
+        ],
+        "models": [
+          "Galaxy S25"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 25,
+      "capacityMah": 4000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s25-plus",
+      "brand": "Samsung",
+      "name": "Galaxy S25+",
+      "match": {
+        "modelPrefixes": [
+          "SM-S936"
+        ],
+        "models": [
+          "Galaxy S25+"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 45,
+      "capacityMah": 4900,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-s25-ultra",
+      "brand": "Samsung",
+      "name": "Galaxy S25 Ultra",
+      "match": {
+        "modelPrefixes": [
+          "SM-S938"
+        ],
+        "models": [
+          "Galaxy S25 Ultra"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "google-pixel-6",
+      "brand": "Google",
+      "name": "Pixel 6",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 6"
+        ]
+      },
+      "launchAndroid": 12,
+      "maxWatts": 21,
+      "capacityMah": 4614,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 21 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 21 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-6-pro",
+      "brand": "Google",
+      "name": "Pixel 6 Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 6 Pro"
+        ]
+      },
+      "launchAndroid": 12,
+      "maxWatts": 23,
+      "capacityMah": 5003,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 23 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 23 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-6a",
+      "brand": "Google",
+      "name": "Pixel 6a",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 6a"
+        ]
+      },
+      "launchAndroid": 12,
+      "maxWatts": 18,
+      "capacityMah": 4410,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 18 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 18 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 20 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 20 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-7",
+      "brand": "Google",
+      "name": "Pixel 7",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 7"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 20,
+      "capacityMah": 4355,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 20 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 20 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-7-pro",
+      "brand": "Google",
+      "name": "Pixel 7 Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 7 Pro"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 23,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 23 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 23 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-7a",
+      "brand": "Google",
+      "name": "Pixel 7a",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 7a"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 18,
+      "capacityMah": 4385,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 18 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 18 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 20 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 20 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-8a",
+      "brand": "Google",
+      "name": "Pixel 8a",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 8a"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 18,
+      "capacityMah": 4492,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 18 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 18 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 20 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 20 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-9a",
+      "brand": "Google",
+      "name": "Pixel 9a",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 9a"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 23,
+      "capacityMah": 5100,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 23 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 23 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "xiaomi-redmi-note-12",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 12",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "23021RAAEG",
+          "Redmi Note 12"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 33 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 33 W (proprietary)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 33 W use the original Xiaomi 33 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-12-pro-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 12 Pro 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "22101316G",
+          "Redmi Note 12 Pro 5G"
+        ]
+      },
+      "launchAndroid": 12,
+      "maxWatts": 67,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-13",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 13",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "23129RAA4G",
+          "Redmi Note 13"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 33 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 33 W (proprietary)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 33 W use the original Xiaomi 33 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-13-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 13 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2312DRAABG",
+          "Redmi Note 13 5G"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 33 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 33 W (proprietary)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 33 W use the original Xiaomi 33 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-13-pro-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 13 Pro 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2312DRA50G",
+          "Redmi Note 13 Pro 5G"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 67,
+      "capacityMah": 5100,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-13-pro-plus",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 13 Pro+ 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "23090RA98G",
+          "Redmi Note 13 Pro+ 5G"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 120,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 120 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 120 W (proprietary)",
+      "advice": "Para acercarte a 120 W usa el cargador original de Xiaomi de 120 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 120 W use the original Xiaomi 120 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-14",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 14",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "24117RN76G",
+          "Redmi Note 14"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 33,
+      "capacityMah": 5500,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 33 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 33 W (proprietary)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 33 W use the original Xiaomi 33 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-14-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 14 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "24094RAD4G",
+          "Redmi Note 14 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 45,
+      "capacityMah": 5110,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 45 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 45 W (proprietary)",
+      "advice": "Para acercarte a 45 W usa el cargador original de Xiaomi de 45 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 45 W use the original Xiaomi 45 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-14-pro-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 14 Pro 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "24090RA29G",
+          "24116RACCG",
+          "Redmi Note 14 Pro 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 45,
+      "capacityMah": 5110,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 45 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 45 W (proprietary)",
+      "advice": "Para acercarte a 45 W usa el cargador original de Xiaomi de 45 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 45 W use the original Xiaomi 45 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-14-pro-plus",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 14 Pro+ 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "24115RA8EG",
+          "Redmi Note 14 Pro+ 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 120,
+      "capacityMah": 5110,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 120 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 120 W (proprietary)",
+      "advice": "Para acercarte a 120 W usa el cargador original de Xiaomi de 120 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 120 W use the original Xiaomi 120 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-13t",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 13T",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2306EPN60G",
+          "Xiaomi 13T"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 67,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-13t-pro",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 13T Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "23078PND5G",
+          "Xiaomi 13T Pro"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 120,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 120 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 120 W (proprietary)",
+      "advice": "Para acercarte a 120 W usa el cargador original de Xiaomi de 120 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 120 W use the original Xiaomi 120 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-14t",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14T",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2406APNFAG",
+          "Xiaomi 14T"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 67,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-14t-pro",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14T Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2407FPN8EG",
+          "Xiaomi 14T Pro"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 120,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 120 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 120 W (proprietary)",
+      "advice": "Para acercarte a 120 W usa el cargador original de Xiaomi de 120 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 120 W use the original Xiaomi 120 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-14",
+      "brand": "Xiaomi",
+      "name": "Xiaomi 14",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "23127PN0CG",
+          "Xiaomi 14"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 90,
+      "capacityMah": 4610,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 90 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 90 W (proprietary)",
+      "advice": "Para acercarte a 90 W usa el cargador original de Xiaomi de 90 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 90 W use the original Xiaomi 90 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "poco-x6-pro",
+      "brand": "POCO",
+      "name": "POCO X6 Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2311DRK48G",
+          "POCO X6 Pro"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 67,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "poco-f6",
+      "brand": "POCO",
+      "name": "POCO F6",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "24069PC21G",
+          "POCO F6"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 90,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 90 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 90 W (proprietary)",
+      "advice": "Para acercarte a 90 W usa el cargador original de Xiaomi de 90 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 90 W use the original Xiaomi 90 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "poco-x7-pro",
+      "brand": "POCO",
+      "name": "POCO X7 Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2412DPC0AG",
+          "POCO X7 Pro"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 90,
+      "capacityMah": 6000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 90 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 90 W (proprietary)",
+      "advice": "Para acercarte a 90 W usa el cargador original de Xiaomi de 90 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 90 W use the original Xiaomi 90 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "motorola-g84",
+      "brand": "Motorola",
+      "name": "moto g84 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "moto g84 5G"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 30,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd"
+      ],
+      "protocolLabel": "TurboPower (USB-C PD), hasta 30 W",
+      "protocolLabel_en": "TurboPower (USB-C PD), up to 30 W",
+      "advice": "Usa un cargador USB-C PD de 30 W o más (como el TurboPower original) y un cable USB-C a USB-C.",
+      "advice_en": "Use a USB-C PD charger of 30 W or more (such as the original TurboPower) and a USB-C to USB-C cable."
+    },
+    {
+      "id": "motorola-g85",
+      "brand": "Motorola",
+      "name": "moto g85 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "moto g85 5G"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd"
+      ],
+      "protocolLabel": "TurboPower (USB-C PD), hasta 33 W",
+      "protocolLabel_en": "TurboPower (USB-C PD), up to 33 W",
+      "advice": "Usa un cargador USB-C PD de 33 W o más (como el TurboPower original) y un cable USB-C a USB-C.",
+      "advice_en": "Use a USB-C PD charger of 33 W or more (such as the original TurboPower) and a USB-C to USB-C cable."
+    },
+    {
+      "id": "motorola-edge-40",
+      "brand": "Motorola",
+      "name": "motorola edge 40",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "motorola edge 40"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 68,
+      "capacityMah": 4400,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd"
+      ],
+      "protocolLabel": "TurboPower (USB-C PD), hasta 68 W",
+      "protocolLabel_en": "TurboPower (USB-C PD), up to 68 W",
+      "advice": "Usa un cargador USB-C PD de 68 W o más (como el TurboPower original) y un cable USB-C a USB-C de 5 A.",
+      "advice_en": "Use a USB-C PD charger of 68 W or more (such as the original TurboPower) and a USB-C to USB-C cable rated 5 A."
+    },
+    {
+      "id": "motorola-edge-50-pro",
+      "brand": "Motorola",
+      "name": "motorola edge 50 pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "motorola edge 50 pro"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 68,
+      "capacityMah": 4500,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd"
+      ],
+      "protocolLabel": "TurboPower (USB-C PD), hasta 68 W",
+      "protocolLabel_en": "TurboPower (USB-C PD), up to 68 W",
+      "advice": "Usa un cargador USB-C PD de 68 W o más (como el TurboPower original) y un cable USB-C a USB-C de 5 A.",
+      "advice_en": "Use a USB-C PD charger of 68 W or more (such as the original TurboPower) and a USB-C to USB-C cable rated 5 A."
+    },
+    {
+      "id": "motorola-edge-50-fusion",
+      "brand": "Motorola",
+      "name": "motorola edge 50 fusion",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "motorola edge 50 fusion"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 68,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd"
+      ],
+      "protocolLabel": "TurboPower (USB-C PD), hasta 68 W",
+      "protocolLabel_en": "TurboPower (USB-C PD), up to 68 W",
+      "advice": "Usa un cargador USB-C PD de 68 W o más (como el TurboPower original) y un cable USB-C a USB-C de 5 A.",
+      "advice_en": "Use a USB-C PD charger of 68 W or more (such as the original TurboPower) and a USB-C to USB-C cable rated 5 A."
+    },
+    {
+      "id": "oneplus-12",
+      "brand": "OnePlus",
+      "name": "OnePlus 12",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "CPH2581",
+          "OnePlus 12"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 80,
+      "capacityMah": 5400,
+      "port": "USB-C",
+      "protocols": [
+        "supervooc"
+      ],
+      "protocolLabel": "SUPERVOOC 80 W (propietario)",
+      "protocolLabel_en": "SUPERVOOC 80 W (proprietary)",
+      "advice": "Para llegar a 80 W necesitas el cargador SUPERVOOC original con su cable. Con cargadores USB-C PD normales carga bastante más lento.",
+      "advice_en": "To reach 80 W you need the original SUPERVOOC charger with its cable. Regular USB-C PD chargers charge much slower."
+    },
+    {
+      "id": "oneplus-nord-ce4",
+      "brand": "OnePlus",
+      "name": "OnePlus Nord CE4",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "CPH2613",
+          "OnePlus Nord CE4"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 100,
+      "capacityMah": 5500,
+      "port": "USB-C",
+      "protocols": [
+        "supervooc"
+      ],
+      "protocolLabel": "SUPERVOOC 100 W (propietario)",
+      "protocolLabel_en": "SUPERVOOC 100 W (proprietary)",
+      "advice": "Para llegar a 100 W necesitas el cargador SUPERVOOC original con su cable. Con cargadores USB-C PD normales carga bastante más lento.",
+      "advice_en": "To reach 100 W you need the original SUPERVOOC charger with its cable. Regular USB-C PD chargers charge much slower."
+    },
+    {
+      "id": "oneplus-nord-4",
+      "brand": "OnePlus",
+      "name": "OnePlus Nord 4",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "CPH2663",
+          "OnePlus Nord 4"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 100,
+      "capacityMah": 5500,
+      "port": "USB-C",
+      "protocols": [
+        "supervooc"
+      ],
+      "protocolLabel": "SUPERVOOC 100 W (propietario)",
+      "protocolLabel_en": "SUPERVOOC 100 W (proprietary)",
+      "advice": "Para llegar a 100 W necesitas el cargador SUPERVOOC original con su cable. Con cargadores USB-C PD normales carga bastante más lento.",
+      "advice_en": "To reach 100 W you need the original SUPERVOOC charger with its cable. Regular USB-C PD chargers charge much slower."
     }
   ],
   "accessories": [
@@ -945,6 +2239,7 @@
     "qc": "Qualcomm Quick Charge",
     "xiaomi-turbo": "Xiaomi MI Turbo Charge (proprietary)",
     "qi": "Qi wireless charging",
-    "qi2": "Qi2 wireless charging (magnetic)"
+    "qi2": "Qi2 wireless charging (magnetic)",
+    "supervooc": "OnePlus/OPPO SUPERVOOC (proprietary)"
   }
 }
