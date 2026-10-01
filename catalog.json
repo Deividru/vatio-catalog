@@ -1,0 +1,950 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 10,
+  "updatedAt": "2026-09-30",
+  "protocols": {
+    "usb-pd": "USB Power Delivery (USB-C PD)",
+    "pps": "PPS (carga rápida programable, variante de USB-PD)",
+    "qc": "Qualcomm Quick Charge",
+    "xiaomi-turbo": "Xiaomi MI Turbo Charge (propietario)",
+    "qi": "Carga inalámbrica Qi",
+    "qi2": "Carga inalámbrica Qi2 (magnética)"
+  },
+  "devices": [
+    {
+      "id": "nothing-phone-1",
+      "brand": "Nothing",
+      "name": "Phone (1)",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A063",
+          "Phone (1)"
+        ]
+      },
+      "launchAndroid": 12,
+      "maxWatts": 33,
+      "capacityMah": 4500,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 33 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 33 W",
+      "advice": "Para acercarte a 33 W usa un cargador USB-C PD con PPS de 33 W o más y un cable USB-C a USB-C de 3 A. Con cargadores sin PPS carga más despacio.",
+      "advice_en": "To get close to 33 W use a USB-C PD charger with PPS rated 33 W or more and a 3 A USB-C to USB-C cable. Chargers without PPS charge more slowly."
+    },
+    {
+      "id": "nothing-phone-2",
+      "brand": "Nothing",
+      "name": "Phone (2)",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A065",
+          "Phone (2)"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 45,
+      "capacityMah": 4700,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 45 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 45 W",
+      "advice": "Para acercarte a 45 W usa un cargador USB-C PD con PPS de 45 W (como el Nothing Power 45W) y un cable USB-C a USB-C de 5 A. Con cables de 3 A se queda en torno a 33 W.",
+      "advice_en": "To get close to 45 W use a 45 W USB-C PD charger with PPS (such as the Nothing Power 45W) and a 5 A USB-C to USB-C cable. With 3 A cables it stays around 33 W."
+    },
+    {
+      "id": "nothing-phone-2a",
+      "brand": "Nothing",
+      "name": "Phone (2a)",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A142",
+          "Phone (2a)"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 45 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 45 W",
+      "advice": "Para acercarte a 45 W usa un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Con cables de 3 A se queda en torno a 33 W. No tiene carga inalámbrica.",
+      "advice_en": "To get close to 45 W use a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. With 3 A cables it stays around 33 W. It has no wireless charging."
+    },
+    {
+      "id": "nothing-phone-2a-plus",
+      "brand": "Nothing",
+      "name": "Phone (2a) Plus",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A142P",
+          "Phone (2a) Plus"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 50,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 50 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 50 W",
+      "advice": "Para acercarte a 50 W usa un cargador USB-C PD con PPS de 50 W o más y un cable USB-C a USB-C de 5 A. No tiene carga inalámbrica.",
+      "advice_en": "To get close to 50 W use a USB-C PD charger with PPS rated 50 W or more and a 5 A USB-C to USB-C cable. It has no wireless charging."
+    },
+    {
+      "id": "nothing-phone-3a",
+      "brand": "Nothing",
+      "name": "Phone (3a)",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A059",
+          "Phone (3a)"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 50,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 50 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 50 W",
+      "advice": "Para acercarte a 50 W usa un cargador USB-C PD con PPS de 50 W o más y un cable USB-C a USB-C de 5 A. No tiene carga inalámbrica.",
+      "advice_en": "To get close to 50 W use a USB-C PD charger with PPS rated 50 W or more and a 5 A USB-C to USB-C cable. It has no wireless charging."
+    },
+    {
+      "id": "nothing-phone-3a-pro",
+      "brand": "Nothing",
+      "name": "Phone (3a) Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A059P",
+          "Phone (3a) Pro"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 50,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 50 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 50 W",
+      "advice": "Para acercarte a 50 W usa un cargador USB-C PD con PPS de 50 W o más y un cable USB-C a USB-C de 5 A. No tiene carga inalámbrica.",
+      "advice_en": "To get close to 50 W use a USB-C PD charger with PPS rated 50 W or more and a 5 A USB-C to USB-C cable. It has no wireless charging."
+    },
+    {
+      "id": "nothing-phone-3",
+      "brand": "Nothing",
+      "name": "Phone (3)",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "A024",
+          "Phone (3)"
+        ]
+      },
+      "launchAndroid": 15,
+      "maxWatts": 65,
+      "capacityMah": 5150,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB Power Delivery 3.0 con PPS, hasta 65 W",
+      "protocolLabel_en": "USB Power Delivery 3.0 with PPS, up to 65 W",
+      "advice": "Para acercarte a 65 W usa un cargador USB-C PD con PPS de 65 W o más y un cable USB-C a USB-C de 5 A. Con cargadores más pequeños carga igual, pero más despacio.",
+      "advice_en": "To get close to 65 W use a USB-C PD charger with PPS rated 65 W or more and a 5 A USB-C to USB-C cable. Smaller chargers work too, just more slowly."
+    },
+    {
+      "id": "xiaomi-redmi-note-11",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 11",
+      "match": {
+        "modelPrefixes": [
+          "2201117T"
+        ],
+        "models": [
+          "Redmi Note 11"
+        ]
+      },
+      "launchAndroid": 11,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi MI Turbo Charge 33 W (propietario)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable USB-A a USB-C de 3 A. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 33 W, use Xiaomi's original 33 W charger with its 3 A USB-A to USB-C cable. Generic chargers usually charge much slower.",
+      "protocolLabel_en": "Xiaomi MI Turbo Charge 33 W (proprietary)"
+    },
+    {
+      "id": "xiaomi-redmi-note-11s",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 11S",
+      "match": {
+        "modelPrefixes": [
+          "2201117S"
+        ],
+        "models": [
+          "Redmi Note 11S"
+        ]
+      },
+      "launchAndroid": 11,
+      "maxWatts": 33,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi MI Turbo Charge 33 W (propietario)",
+      "advice": "Para acercarte a 33 W usa el cargador original de Xiaomi de 33 W con su cable de 3 A.",
+      "advice_en": "To get close to 33 W, use Xiaomi's original 33 W charger with its 3 A cable.",
+      "protocolLabel_en": "Xiaomi MI Turbo Charge 33 W (proprietary)"
+    },
+    {
+      "id": "google-pixel-8",
+      "brand": "Google",
+      "name": "Pixel 8",
+      "match": {
+        "models": [
+          "Pixel 8"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 27,
+      "capacityMah": 4575,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD PPS",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable.",
+      "protocolLabel_en": "USB-C PD PPS"
+    },
+    {
+      "id": "google-pixel-8-pro",
+      "brand": "Google",
+      "name": "Pixel 8 Pro",
+      "match": {
+        "models": [
+          "Pixel 8 Pro"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 30,
+      "capacityMah": 5050,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD PPS",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable.",
+      "protocolLabel_en": "USB-C PD PPS"
+    },
+    {
+      "id": "google-pixel-9",
+      "brand": "Google",
+      "name": "Pixel 9",
+      "match": {
+        "models": [
+          "Pixel 9"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 27,
+      "capacityMah": 4700,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD PPS",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable.",
+      "protocolLabel_en": "USB-C PD PPS"
+    },
+    {
+      "id": "google-pixel-9-pro",
+      "brand": "Google",
+      "name": "Pixel 9 Pro",
+      "match": {
+        "models": [
+          "Pixel 9 Pro"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 27,
+      "capacityMah": 4700,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD PPS",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable.",
+      "protocolLabel_en": "USB-C PD PPS"
+    },
+    {
+      "id": "google-pixel-9-pro-xl",
+      "brand": "Google",
+      "name": "Pixel 9 Pro XL",
+      "match": {
+        "models": [
+          "Pixel 9 Pro XL"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 37,
+      "capacityMah": 5060,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD PPS",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a USB-C to USB-C cable.",
+      "protocolLabel_en": "USB-C PD PPS"
+    },
+    {
+      "id": "samsung-galaxy-a54",
+      "brand": "Samsung",
+      "name": "Galaxy A54 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A546"
+        ]
+      },
+      "launchAndroid": 13,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD PPS)",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable.",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD PPS)"
+    },
+    {
+      "id": "samsung-galaxy-s24",
+      "brand": "Samsung",
+      "name": "Galaxy S24",
+      "match": {
+        "modelPrefixes": [
+          "SM-S921"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 25,
+      "capacityMah": 4000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD PPS)",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable.",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD PPS)"
+    },
+    {
+      "id": "samsung-galaxy-s24-plus",
+      "brand": "Samsung",
+      "name": "Galaxy S24+",
+      "match": {
+        "modelPrefixes": [
+          "SM-S926"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 45,
+      "capacityMah": 4900,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD PPS)",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C de 5 A.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C cable.",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD PPS)"
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "brand": "Samsung",
+      "name": "Galaxy S24 Ultra",
+      "match": {
+        "modelPrefixes": [
+          "SM-S928"
+        ]
+      },
+      "launchAndroid": 14,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD PPS)",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C de 5 A.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C cable.",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD PPS)"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "anker-nano-45w",
+      "type": "charger",
+      "brand": "Anker",
+      "name": "Anker Nano 45 W (USB-C)",
+      "name_en": "Anker Nano 45 W (USB-C)",
+      "watts": 45,
+      "protocols": [
+        "usb-pd"
+      ],
+      "description": "Un puerto USB-C con Power Delivery. Pequeño y potente. No incluye cable.",
+      "description_en": "One USB-C port with Power Delivery. Small and powerful. Cable not included.",
+      "sponsored": false,
+      "priority": 60,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/dp/B0GQLKGD1F?tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2
+    },
+    {
+      "id": "samsung-25w-cable",
+      "type": "charger",
+      "brand": "Samsung",
+      "name": "Samsung 25 W Super Fast Charging + cable USB-C",
+      "name_en": "Samsung 25 W Super Fast Charging + USB-C cable",
+      "watts": 25,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Samsung, con cable USB-C a USB-C incluido.",
+      "description_en": "Samsung's official one, with a USB-C to USB-C cable included.",
+      "sponsored": false,
+      "priority": 72,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0eEQt7bz",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "official",
+      "priceTier": 2,
+      "includesCable": true
+    },
+    {
+      "id": "samsung-25w",
+      "type": "charger",
+      "brand": "Samsung",
+      "name": "Samsung 25 W Super Fast Charging (sin cable)",
+      "name_en": "Samsung 25 W Super Fast Charging (no cable)",
+      "watts": 25,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Samsung, solo el cargador. Úsalo con un cable USB-C a USB-C de 3 A.",
+      "description_en": "Samsung's official one, charger only. Use it with a 3 A USB-C to USB-C cable.",
+      "sponsored": false,
+      "priority": 66,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B01jwqyvh",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "official",
+      "priceTier": 1
+    },
+    {
+      "id": "samsung-45w-cable",
+      "type": "charger",
+      "brand": "Samsung",
+      "kind": "official",
+      "priceTier": 3,
+      "name": "Samsung 45 W Super Fast Charging 2.0 + cable 5 A",
+      "name_en": "Samsung 45 W Super Fast Charging 2.0 + 5 A cable",
+      "watts": 45,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Samsung de 45 W, con el cable USB-C de 5 A que necesita incluido.",
+      "description_en": "Samsung's official 45 W, with the 5 A USB-C cable it needs included.",
+      "sponsored": false,
+      "priority": 71,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B03X0gg48",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "includesCable": true
+    },
+    {
+      "id": "samsung-45w",
+      "type": "charger",
+      "brand": "Samsung",
+      "name": "Samsung 45 W Super Fast Charging 2.0 (sin cable)",
+      "name_en": "Samsung 45 W Super Fast Charging 2.0 (no cable)",
+      "watts": 45,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Samsung de 45 W. Para dar los 45 W necesita un cable USB-C de 5 A.",
+      "description_en": "Samsung's official 45 W. It needs a 5 A USB-C cable to deliver 45 W.",
+      "sponsored": false,
+      "priority": 70,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0dugzKHD",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "official",
+      "priceTier": 3
+    },
+    {
+      "id": "pixel-30w",
+      "type": "charger",
+      "brand": "Google",
+      "name": "Google Pixel 30 W USB-C",
+      "name_en": "Google Pixel 30 W USB-C",
+      "watts": 30,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Google para Pixel. También carga rápido otros móviles USB-C.",
+      "description_en": "Google's official Pixel charger. It also fast-charges other USB-C phones.",
+      "sponsored": false,
+      "priority": 68,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0cKEfdX2",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "official",
+      "priceTier": 2
+    },
+    {
+      "id": "nothing-45w",
+      "type": "charger",
+      "brand": "Nothing",
+      "name": "Nothing Charger 45 W",
+      "name_en": "Nothing Charger 45 W",
+      "watts": 45,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "El oficial de Nothing, con USB-C PD 3.0 y PPS.",
+      "description_en": "Nothing's official charger, with USB-C PD 3.0 and PPS.",
+      "sponsored": false,
+      "priority": 68,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0gTF4yt4",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "official",
+      "priceTier": 2
+    },
+    {
+      "id": "anker-735-65w",
+      "type": "charger",
+      "brand": "Anker",
+      "name": "Anker 735 (Nano II 65 W), 3 puertos",
+      "name_en": "Anker 735 (Nano II 65 W), 3 ports",
+      "watts": 65,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "Uno para todo: 2 USB-C y 1 USB-A. Carga tu móvil a tope y también tablet o portátil.",
+      "description_en": "One for everything: 2 USB-C and 1 USB-A. Charges your phone at full speed plus a tablet or laptop.",
+      "sponsored": false,
+      "priority": 62,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B03LptAIC",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 3
+    },
+    {
+      "id": "ugreen-65w",
+      "type": "charger",
+      "brand": "UGREEN",
+      "name": "UGREEN Nexode 65 W, 3 puertos",
+      "name_en": "UGREEN Nexode 65 W, 3 ports",
+      "watts": 65,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "Uno para todo: 2 USB-C y 1 USB-A. Con PPS da hasta 25 W al móvil: ideal para móviles de hasta 25 W.",
+      "description_en": "One for everything: 2 USB-C and 1 USB-A. With PPS it gives the phone up to 25 W: ideal for phones up to 25 W.",
+      "sponsored": false,
+      "priority": 58,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B06nLPnSW",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2
+    },
+    {
+      "id": "cable-cc-5a",
+      "type": "cable",
+      "brand": "UGREEN",
+      "name": "Cable UGREEN USB-C a USB-C 100 W (5 A), 1 m",
+      "name_en": "UGREEN USB-C to USB-C cable 100 W (5 A), 1 m",
+      "watts": 100,
+      "amps": 5,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "Para móviles de 45 W o más: con un cable de 3 A se quedarían en unos 33 W.",
+      "description_en": "For phones of 45 W or more: with a 3 A cable they'd stay at about 33 W.",
+      "sponsored": false,
+      "priority": 64,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0iMrflsm",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "minDeviceWatts": 37,
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1
+    },
+    {
+      "id": "cable-cc-3a",
+      "type": "cable",
+      "brand": "UGREEN",
+      "name": "Cable UGREEN USB-C a USB-C 60 W (3 A), 1 m",
+      "name_en": "UGREEN USB-C to USB-C cable 60 W (3 A), 1 m",
+      "watts": 60,
+      "amps": 3,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "Suficiente para móviles de hasta 33 W.",
+      "description_en": "Enough for phones up to 33 W.",
+      "sponsored": false,
+      "priority": 60,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0hcSjWsu",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1
+    },
+    {
+      "id": "hobeiy-33w",
+      "type": "charger",
+      "brand": "Hobeiy",
+      "kind": "compatible",
+      "priceTier": 1,
+      "name": "Hobeiy 33 W con cable USB-C",
+      "name_en": "Hobeiy 33 W with USB-C cable",
+      "watts": 33,
+      "protocols": [
+        "xiaomi-turbo",
+        "qc"
+      ],
+      "description": "Cargador compatible de 33 W con cable incluido. No es el original de Xiaomi.",
+      "description_en": "Compatible 33 W charger with cable included. Not the original Xiaomi one.",
+      "sponsored": false,
+      "priority": 55,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0cmcJmon",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "xiaomi-turbo"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "includesCable": true
+    },
+    {
+      "id": "cable-ac-3a",
+      "type": "cable",
+      "brand": "UGREEN",
+      "name": "Cable UGREEN USB-A a USB-C (3 A), 1 m",
+      "name_en": "UGREEN USB-A to USB-C cable (3 A), 1 m",
+      "amps": 3,
+      "protocols": [
+        "xiaomi-turbo",
+        "qc"
+      ],
+      "description": "Para cargadores con USB-A, como el de 33 W de Xiaomi.",
+      "description_en": "For chargers with USB-A, such as Xiaomi's 33 W.",
+      "sponsored": false,
+      "priority": 60,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://link.amazon/B0isrUW6y",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "xiaomi-turbo"
+        ],
+        "showWhen": [
+          "SLOW",
+          "NORMAL",
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1
+    }
+  ],
+  "protocols_en": {
+    "usb-pd": "USB Power Delivery (USB-C PD)",
+    "pps": "PPS (programmable fast charging, part of USB-PD)",
+    "qc": "Qualcomm Quick Charge",
+    "xiaomi-turbo": "Xiaomi MI Turbo Charge (proprietary)",
+    "qi": "Qi wireless charging",
+    "qi2": "Qi2 wireless charging (magnetic)"
+  }
+}
