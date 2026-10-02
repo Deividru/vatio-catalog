@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 12,
+  "catalogVersion": 14,
   "updatedAt": "2026-10-02",
   "protocols": {
     "usb-pd": "USB Power Delivery (USB-C PD)",
@@ -1830,7 +1830,6 @@
       "name": "Galaxy A07 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A075",
           "SM-A076"
         ],
         "models": []
@@ -1902,8 +1901,6 @@
       "name": "Galaxy A13 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A135",
-          "SM-A137",
           "SM-A136",
           "SM-S136"
         ],
@@ -1951,7 +1948,6 @@
       "name": "Galaxy A14 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A145",
           "SM-A146",
           "SM-S146"
         ],
@@ -1976,7 +1972,6 @@
       "name": "Galaxy A17 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A175",
           "SM-A176",
           "SM-S176"
         ],
@@ -2024,7 +2019,6 @@
       "name": "Galaxy A22 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A225",
           "SM-A226"
         ],
         "models": []
@@ -2047,10 +2041,12 @@
       "brand": "Samsung",
       "name": "Galaxy A23",
       "match": {
-        "modelPrefixes": [
-          "SM-A235"
-        ],
-        "models": []
+        "modelPrefixes": [],
+        "models": [
+          "SM-A235F",
+          "SM-A235M",
+          "SM-A235N"
+        ]
       },
       "launchAndroid": 12,
       "maxWatts": 25,
@@ -2071,13 +2067,14 @@
       "name": "Galaxy A23 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A235",
           "SM-A236",
           "SM-S236",
           "SM-S237",
           "SM-A233"
         ],
-        "models": []
+        "models": [
+          "SM-A235E"
+        ]
       },
       "launchAndroid": 12,
       "maxWatts": 25,
@@ -2144,7 +2141,6 @@
       "name": "Galaxy A32 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A325",
           "SM-A326",
           "SM-S326"
         ],
@@ -2239,7 +2235,6 @@
       "name": "Galaxy A52 5G",
       "match": {
         "modelPrefixes": [
-          "SM-A525",
           "SM-A526"
         ],
         "models": []
@@ -5867,6 +5862,299 @@
       "advice_en": "To reach 35 W you need the original HONOR SuperCharge charger with its cable. Regular USB-C PD chargers charge slower."
     },
     {
+      "id": "samsung-galaxy-a27-5g",
+      "brand": "Samsung",
+      "name": "Galaxy A27 5G",
+      "match": {
+        "modelPrefixes": [
+          "SM-A276",
+          "SM-S276"
+        ],
+        "models": []
+      },
+      "launchAndroid": 16,
+      "maxWatts": 25,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-z-flip8",
+      "brand": "Samsung",
+      "name": "Galaxy Z Flip8",
+      "match": {
+        "modelPrefixes": [
+          "SM-F776"
+        ],
+        "models": []
+      },
+      "launchAndroid": 16,
+      "maxWatts": 25,
+      "capacityMah": 4300,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging (USB-C PD con PPS), hasta 25 W",
+      "protocolLabel_en": "Samsung Super Fast Charging (USB-C PD with PPS), up to 25 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 25 W y un cable USB-C a USB-C de 3 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 25 W USB-C PD charger with PPS and a 3 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-z-fold8",
+      "brand": "Samsung",
+      "name": "Galaxy Z Fold8",
+      "match": {
+        "modelPrefixes": [
+          "SM-F971"
+        ],
+        "models": []
+      },
+      "launchAndroid": 16,
+      "maxWatts": 45,
+      "capacityMah": 4800,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "samsung-galaxy-z-fold8-ultra",
+      "brand": "Samsung",
+      "name": "Galaxy Z Fold8 Ultra",
+      "match": {
+        "modelPrefixes": [
+          "SM-F976"
+        ],
+        "models": []
+      },
+      "launchAndroid": 16,
+      "maxWatts": 45,
+      "capacityMah": 5000,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "Samsung Super Fast Charging 2.0 (USB-C PD con PPS), hasta 45 W",
+      "protocolLabel_en": "Samsung Super Fast Charging 2.0 (USB-C PD with PPS), up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de 45 W y un cable USB-C a USB-C de 5 A. Sin PPS se queda en unos 15 W.",
+      "advice_en": "You need a 45 W USB-C PD charger with PPS and a 5 A USB-C to USB-C cable. Without PPS it stays around 15 W."
+    },
+    {
+      "id": "xiaomi-redmi-note-17",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 17",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "26012RN62A",
+          "26012RN62Y",
+          "26012RN62L",
+          "Redmi Note 17"
+        ]
+      },
+      "launchAndroid": 16,
+      "maxWatts": 45,
+      "capacityMah": 7700,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 45 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 45 W (proprietary)",
+      "advice": "Para acercarte a 45 W usa el cargador original de Xiaomi de 45 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 45 W use the original Xiaomi 45 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-17-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 17 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "26081RA18G",
+          "26021RN18I",
+          "26081RA18L",
+          "Redmi Note 17 5G"
+        ]
+      },
+      "launchAndroid": 16,
+      "maxWatts": 45,
+      "capacityMah": 7700,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 45 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 45 W (proprietary)",
+      "advice": "Para acercarte a 45 W usa el cargador original de Xiaomi de 45 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 45 W use the original Xiaomi 45 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-17-pro-5g",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 17 Pro 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2607DRA18G",
+          "2607DRA18I",
+          "2607DRA18T",
+          "Redmi Note 17 Pro 5G"
+        ]
+      },
+      "launchAndroid": 16,
+      "maxWatts": 67,
+      "capacityMah": 8340,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi Turbo Charge 67 W (propietario)",
+      "protocolLabel_en": "Xiaomi Turbo Charge 67 W (proprietary)",
+      "advice": "Para acercarte a 67 W usa el cargador original de Xiaomi de 67 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 67 W use the original Xiaomi 67 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "xiaomi-redmi-note-17-pro-max",
+      "brand": "Xiaomi",
+      "name": "Redmi Note 17 Pro Max 5G",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2609FRA74G",
+          "2609FRA74I",
+          "2609FRA56I",
+          "2609FRA74T",
+          "Redmi Note 17 Pro Max 5G"
+        ]
+      },
+      "launchAndroid": 16,
+      "maxWatts": 100,
+      "capacityMah": 10000,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 100 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 100 W (proprietary)",
+      "advice": "Para acercarte a 100 W usa el cargador original de Xiaomi de 100 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 100 W use the original Xiaomi 100 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "poco-x8-pro-max",
+      "brand": "POCO",
+      "name": "POCO X8 Pro Max",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "2602BPC18G",
+          "2602BPC18I",
+          "POCO X8 Pro Max"
+        ]
+      },
+      "launchAndroid": 16,
+      "maxWatts": 100,
+      "capacityMah": 8500,
+      "port": "USB-C",
+      "protocols": [
+        "xiaomi-turbo"
+      ],
+      "protocolLabel": "Xiaomi HyperCharge 100 W (propietario)",
+      "protocolLabel_en": "Xiaomi HyperCharge 100 W (proprietary)",
+      "advice": "Para acercarte a 100 W usa el cargador original de Xiaomi de 100 W con su cable. Con cargadores genéricos lo habitual es cargar bastante más lento.",
+      "advice_en": "To get close to 100 W use the original Xiaomi 100 W charger with its cable. Generic chargers usually charge much slower."
+    },
+    {
+      "id": "google-pixel-11",
+      "brand": "Google",
+      "name": "Pixel 11",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 11"
+        ]
+      },
+      "launchAndroid": 17,
+      "maxWatts": 30,
+      "capacityMah": 4985,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 30 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 30 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-11-pro",
+      "brand": "Google",
+      "name": "Pixel 11 Pro",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 11 Pro"
+        ]
+      },
+      "launchAndroid": 17,
+      "maxWatts": 30,
+      "capacityMah": 4850,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 30 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 30 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 30 W y un cable USB-C a USB-C.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 30 W and a USB-C to USB-C cable."
+    },
+    {
+      "id": "google-pixel-11-pro-xl",
+      "brand": "Google",
+      "name": "Pixel 11 Pro XL",
+      "match": {
+        "modelPrefixes": [],
+        "models": [
+          "Pixel 11 Pro XL"
+        ]
+      },
+      "launchAndroid": 17,
+      "maxWatts": 45,
+      "capacityMah": 5115,
+      "port": "USB-C",
+      "protocols": [
+        "usb-pd",
+        "pps",
+        "qi"
+      ],
+      "protocolLabel": "USB-C PD con PPS, hasta 45 W",
+      "protocolLabel_en": "USB-C PD with PPS, up to 45 W",
+      "advice": "Necesitas un cargador USB-C PD con PPS de al menos 45 W y un cable USB-C a USB-C de 5 A.",
+      "advice_en": "You need a USB-C PD charger with PPS of at least 45 W and a USB-C to USB-C cable rated 5 A."
+    },
+    {
       "id": "samsung-galaxy-a11",
       "brand": "Samsung",
       "name": "Galaxy A11",
@@ -7768,6 +8056,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Nano+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7783,7 +8078,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Muy pequeño para sus 45 W",
+        "PPS: carga a tope los Samsung de 45 W"
+      ],
+      "cons": [
+        "Un solo puerto"
+      ],
+      "pros_en": [
+        "Very small for 45 W",
+        "PPS: full speed on 45 W Samsung phones"
+      ],
+      "cons_en": [
+        "Single port"
+      ]
     },
     {
       "id": "samsung-25w-cable",
@@ -7807,6 +8116,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+25W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7822,7 +8138,21 @@
       },
       "kind": "official",
       "priceTier": 2,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "El oficial, con cable incluido",
+        "Carga a tope cualquier Galaxy de 25 W"
+      ],
+      "cons": [
+        "Grande al lado de los GaN"
+      ],
+      "pros_en": [
+        "The official one, cable included",
+        "Full speed on any 25 W Galaxy"
+      ],
+      "cons_en": [
+        "Bulky next to GaN chargers"
+      ]
     },
     {
       "id": "samsung-25w",
@@ -7846,6 +8176,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+25W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7860,7 +8197,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "El oficial de Samsung",
+        "PPS para cargar a 25 W"
+      ],
+      "cons": [
+        "Sin cable: necesitas uno USB-C de 3 A"
+      ],
+      "pros_en": [
+        "Samsung's official charger",
+        "PPS for full 25 W"
+      ],
+      "cons_en": [
+        "No cable: you need a 3 A USB-C one"
+      ]
     },
     {
       "id": "samsung-45w-cable",
@@ -7886,6 +8237,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7899,7 +8257,21 @@
           "CATALOG"
         ]
       },
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "El oficial para S Plus, Ultra y A56",
+        "Cable de 5 A incluido"
+      ],
+      "cons": [
+        "Caro para un solo puerto"
+      ],
+      "pros_en": [
+        "The official one for S Plus, Ultra and A56",
+        "5 A cable included"
+      ],
+      "cons_en": [
+        "Pricey for a single port"
+      ]
     },
     {
       "id": "samsung-45w",
@@ -7923,6 +8295,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7937,7 +8316,19 @@
         ]
       },
       "kind": "official",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Oficial y con PPS de 45 W"
+      ],
+      "cons": [
+        "Sin cable: necesita uno de 5 A para pasar de 33 W"
+      ],
+      "pros_en": [
+        "Official, with 45 W PPS"
+      ],
+      "cons_en": [
+        "No cable: needs a 5 A one to go above 33 W"
+      ]
     },
     {
       "id": "pixel-30w",
@@ -7961,6 +8352,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Google+cargador+30W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -7975,7 +8373,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "El oficial de Google, carga a tope casi todos los Pixel"
+      ],
+      "cons": [
+        "Sin cable",
+        "Al Pixel 10 Pro XL se le queda corto"
+      ],
+      "pros_en": [
+        "Google's official, full speed on almost every Pixel"
+      ],
+      "cons_en": [
+        "No cable",
+        "Falls short for the Pixel 10 Pro XL"
+      ]
     },
     {
       "id": "nothing-45w",
@@ -8013,7 +8425,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Diseño transparente a juego con el móvil",
+        "PPS de 45 W"
+      ],
+      "cons": [
+        "Más caro que otros de 45 W"
+      ],
+      "pros_en": [
+        "Transparent design to match the phone",
+        "45 W PPS"
+      ],
+      "cons_en": [
+        "Pricier than other 45 W chargers"
+      ]
     },
     {
       "id": "anker-735-65w",
@@ -8037,6 +8463,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+735+65W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8050,7 +8483,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Tres puertos: móvil, tablet y portátil",
+        "PPS hasta 45 W en el móvil"
+      ],
+      "cons": [
+        "Con todo enchufado reparte la potencia"
+      ],
+      "pros_en": [
+        "Three ports: phone, tablet and laptop",
+        "Up to 45 W PPS for the phone"
+      ],
+      "cons_en": [
+        "Power is shared with everything plugged in"
+      ]
     },
     {
       "id": "ugreen-65w",
@@ -8074,6 +8521,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=UGREEN+Nexode+65W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8087,7 +8541,22 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Tres puertos a buen precio",
+        "Ideal para portátil y móvil"
+      ],
+      "cons": [
+        "Su PPS se queda en 25 W: no aprovecha los Samsung de 45 W"
+      ],
+      "pros_en": [
+        "Three ports at a good price",
+        "Great for laptop plus phone"
+      ],
+      "cons_en": [
+        "Its PPS stops at 25 W: not ideal for 45 W Samsung phones"
+      ],
+      "ppsWatts": 25
     },
     {
       "id": "cable-cc-5a",
@@ -8112,6 +8581,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=cable+USB-C+5A+100W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8128,7 +8604,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "5 A: no limita ningún móvil",
+        "Vale también para portátil"
+      ],
+      "cons": [
+        "Más rígido que uno de 3 A"
+      ],
+      "pros_en": [
+        "5 A: won't limit any phone",
+        "Works for laptops too"
+      ],
+      "cons_en": [
+        "Stiffer than a 3 A cable"
+      ]
     },
     {
       "id": "cable-cc-3a",
@@ -8153,6 +8643,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=cable+USB-C+a+USB-C+60W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8168,7 +8665,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Barato y resistente",
+        "Suficiente hasta 33 W"
+      ],
+      "cons": [
+        "Limita a unos 33 W a los móviles de 45 W o más"
+      ],
+      "pros_en": [
+        "Cheap and tough",
+        "Enough up to 33 W"
+      ],
+      "cons_en": [
+        "Caps 45 W+ phones at about 33 W"
+      ]
     },
     {
       "id": "hobeiy-33w",
@@ -8207,7 +8718,19 @@
           "CATALOG"
         ]
       },
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "Barato para los Xiaomi de 33 W"
+      ],
+      "cons": [
+        "Marca poco conocida: compruébalo con Vatio al recibirlo"
+      ],
+      "pros_en": [
+        "Cheap for 33 W Xiaomi phones"
+      ],
+      "cons_en": [
+        "Little-known brand: test it with Vatio when it arrives"
+      ]
     },
     {
       "id": "cable-ac-3a",
@@ -8231,6 +8754,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=cable+USB-A+a+USB-C+3A",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8245,7 +8775,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Para cargadores con salida USB-A",
+        "Muy barato"
+      ],
+      "cons": [
+        "Solo sirve con cargadores USB-A"
+      ],
+      "pros_en": [
+        "For chargers with a USB-A port",
+        "Very cheap"
+      ],
+      "cons_en": [
+        "Only works with USB-A chargers"
+      ]
     },
     {
       "id": "anker-nano-20w",
@@ -8268,6 +8812,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Nano+20W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8282,7 +8833,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Diminuto y de marca",
+        "Perfecto para cargar de noche sin calentar"
+      ],
+      "cons": [
+        "Sin PPS: un Samsung de 25 W se queda en unos 15-20 W"
+      ],
+      "pros_en": [
+        "Tiny and branded",
+        "Great for cool overnight charging"
+      ],
+      "cons_en": [
+        "No PPS: a 25 W Samsung stays around 15-20 W"
+      ]
     },
     {
       "id": "ugreen-nexode-30w",
@@ -8306,6 +8871,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=UGREEN+Nexode+30W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8321,7 +8893,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "GaN muy compacto con PPS",
+        "Carga a tope Samsung de 25 W y Pixel"
+      ],
+      "cons": [
+        "Un solo puerto"
+      ],
+      "pros_en": [
+        "Very compact GaN with PPS",
+        "Full speed on 25 W Samsung and Pixel"
+      ],
+      "cons_en": [
+        "Single port"
+      ]
     },
     {
       "id": "ugreen-nexode-45w",
@@ -8345,6 +8931,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=UGREEN+Nexode+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8359,7 +8952,19 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "PPS de 45 W más barato que el oficial"
+      ],
+      "cons": [
+        "Necesitas cable de 5 A para pasar de 33 W"
+      ],
+      "pros_en": [
+        "45 W PPS, cheaper than the official one"
+      ],
+      "cons_en": [
+        "You need a 5 A cable to go above 33 W"
+      ]
     },
     {
       "id": "belkin-25w-pps",
@@ -8383,6 +8988,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Belkin+BoostCharge+25W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8397,7 +9009,19 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Marca de confianza, con PPS"
+      ],
+      "cons": [
+        "Sin cable incluido en algunas versiones"
+      ],
+      "pros_en": [
+        "Trusted brand, with PPS"
+      ],
+      "cons_en": [
+        "Some versions come without a cable"
+      ]
     },
     {
       "id": "samsung-65w-trio",
@@ -8421,6 +9045,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+65W+Trio",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8435,7 +9066,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Oficial y con tres puertos",
+        "Móvil a 45 W mientras cargas reloj o auriculares"
+      ],
+      "cons": [
+        "Caro"
+      ],
+      "pros_en": [
+        "Official, with three ports",
+        "Phone at 45 W while charging a watch or earbuds"
+      ],
+      "cons_en": [
+        "Expensive"
+      ]
     },
     {
       "id": "samsung-15w",
@@ -8458,6 +9103,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+15W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8472,7 +9124,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "El adecuado para los Galaxy de 15 W",
+        "Muy barato"
+      ],
+      "cons": [
+        "Lento para los Galaxy de 25 W o más"
+      ],
+      "pros_en": [
+        "The right one for 15 W Galaxy phones",
+        "Very cheap"
+      ],
+      "cons_en": [
+        "Slow for 25 W+ Galaxy phones"
+      ]
     },
     {
       "id": "anker-prime-100w",
@@ -8496,6 +9162,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Prime+100W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8511,7 +9184,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Uno para todo: móvil, tablet y portátil",
+        "PPS y pantalla de consumo en algunas versiones"
+      ],
+      "cons": [
+        "Caro si solo cargas el móvil"
+      ],
+      "pros_en": [
+        "One for everything: phone, tablet and laptop",
+        "PPS, and a power display on some versions"
+      ],
+      "cons_en": [
+        "Expensive if you only charge a phone"
+      ]
     },
     {
       "id": "ugreen-nexode-100w",
@@ -8535,6 +9222,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=UGREEN+Nexode+100W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8550,7 +9244,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Cuatro puertos para toda la casa"
+      ],
+      "cons": [
+        "Grande",
+        "Caro si solo cargas el móvil"
+      ],
+      "pros_en": [
+        "Four ports for the whole home"
+      ],
+      "cons_en": [
+        "Large",
+        "Expensive if you only charge a phone"
+      ]
     },
     {
       "id": "baseus-gan5-65w",
@@ -8575,6 +9283,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Baseus+65W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8591,7 +9306,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Potente y económico",
+        "USB-C y USB-A"
+      ],
+      "cons": [
+        "Su PPS no llega a 45 W en todos los modelos"
+      ],
+      "pros_en": [
+        "Powerful and affordable",
+        "USB-C and USB-A"
+      ],
+      "cons_en": [
+        "Its PPS doesn't reach 45 W on every model"
+      ]
     },
     {
       "id": "google-45w",
@@ -8615,6 +9344,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Google+cargador+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8629,7 +9365,19 @@
         ]
       },
       "kind": "official",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Oficial, el único que aprovecha el Pixel 10 Pro XL"
+      ],
+      "cons": [
+        "Sin cable de 5 A incluido"
+      ],
+      "pros_en": [
+        "Official, the one that unlocks the Pixel 10 Pro XL's speed"
+      ],
+      "cons_en": [
+        "No 5 A cable included"
+      ]
     },
     {
       "id": "xiaomi-67w",
@@ -8653,6 +9401,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Xiaomi+cargador+67W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8668,7 +9423,21 @@
       },
       "kind": "official",
       "priceTier": 2,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "El original: alcanza los 67 W",
+        "Cable incluido"
+      ],
+      "cons": [
+        "Sistema propio: con otras marcas carga más lento"
+      ],
+      "pros_en": [
+        "The original: reaches 67 W",
+        "Cable included"
+      ],
+      "cons_en": [
+        "Proprietary: slower with other brands' phones"
+      ]
     },
     {
       "id": "xiaomi-120w",
@@ -8691,6 +9460,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Xiaomi+cargador+120W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8707,7 +9483,21 @@
       },
       "kind": "official",
       "priceTier": 3,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "Carga completa en unos 20-30 minutos",
+        "Cable de 6 A incluido"
+      ],
+      "cons": [
+        "Solo aprovecha su potencia con Xiaomi y POCO"
+      ],
+      "pros_en": [
+        "Full charge in about 20-30 minutes",
+        "6 A cable included"
+      ],
+      "cons_en": [
+        "Only reaches its power on Xiaomi and POCO"
+      ]
     },
     {
       "id": "supervooc-80w",
@@ -8746,7 +9536,21 @@
       },
       "kind": "official",
       "priceTier": 2,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "El original: alcanza los 80 W",
+        "Cable incluido"
+      ],
+      "cons": [
+        "Sistema propio: con otras marcas carga más lento"
+      ],
+      "pros_en": [
+        "The original: reaches 80 W",
+        "Cable included"
+      ],
+      "cons_en": [
+        "Proprietary: slower with other brands' phones"
+      ]
     },
     {
       "id": "motorola-turbopower-68w",
@@ -8769,6 +9573,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Motorola+TurboPower+68W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8784,7 +9595,19 @@
       },
       "kind": "official",
       "priceTier": 2,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "Oficial y USB-C PD: sirve para casi cualquier móvil"
+      ],
+      "cons": [
+        "Más caro que uno genérico de la misma potencia"
+      ],
+      "pros_en": [
+        "Official and USB-C PD: works with almost any phone"
+      ],
+      "cons_en": [
+        "Pricier than a generic one of the same power"
+      ]
     },
     {
       "id": "honor-supercharge-66w",
@@ -8823,7 +9646,19 @@
       },
       "kind": "official",
       "priceTier": 2,
-      "includesCable": true
+      "includesCable": true,
+      "pros": [
+        "El original: alcanza los 66 W"
+      ],
+      "cons": [
+        "Sistema propio: con otras marcas carga más lento"
+      ],
+      "pros_en": [
+        "The original: reaches 66 W"
+      ],
+      "cons_en": [
+        "Proprietary: slower with other brands' phones"
+      ]
     },
     {
       "id": "car-charger-pps-45w",
@@ -8847,6 +9682,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=cargador+coche+USB-C+45W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8862,7 +9704,19 @@
         ]
       },
       "kind": "compatible",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "En el coche, tan rápido como en casa"
+      ],
+      "cons": [
+        "Hay muchos genéricos: elige marca conocida y compruébalo con Vatio"
+      ],
+      "pros_en": [
+        "In the car, as fast as at home"
+      ],
+      "cons_en": [
+        "Many generic ones: pick a known brand and test it with Vatio"
+      ]
     },
     {
       "id": "samsung-cable-5a",
@@ -8887,6 +9741,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cable+USB-C+5A",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8902,7 +9763,19 @@
         ]
       },
       "kind": "official",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Oficial, para los Galaxy de 45 W y 60 W"
+      ],
+      "cons": [
+        "Solo 1 m"
+      ],
+      "pros_en": [
+        "Official, for 45 W and 60 W Galaxy phones"
+      ],
+      "cons_en": [
+        "Only 1 m long"
+      ]
     },
     {
       "id": "anker-cable-240w",
@@ -8927,6 +9800,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+cable+USB-C+240W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8942,7 +9822,21 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Trenzado y muy resistente",
+        "5 A: no limita nada"
+      ],
+      "cons": [
+        "Más caro que uno básico"
+      ],
+      "pros_en": [
+        "Braided and very tough",
+        "5 A: limits nothing"
+      ],
+      "cons_en": [
+        "Pricier than a basic cable"
+      ]
     },
     {
       "id": "ugreen-cable-cc-3a-2m",
@@ -8967,6 +9861,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=UGREEN+cable+USB-C+2m",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -8982,7 +9883,19 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "2 metros: cargas desde la cama"
+      ],
+      "cons": [
+        "3 A: limita a unos 33 W"
+      ],
+      "pros_en": [
+        "2 metres: charge from bed"
+      ],
+      "cons_en": [
+        "3 A: caps at about 33 W"
+      ]
     },
     {
       "id": "samsung-battery-pack-10000",
@@ -9006,6 +9919,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+bater%C3%ADa+externa+10000+25W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9019,7 +9939,22 @@
         ]
       },
       "kind": "official",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Oficial, con PPS de 25 W",
+        "Ligera"
+      ],
+      "cons": [
+        "10.000 mAh: poco más de una carga completa"
+      ],
+      "pros_en": [
+        "Official, with 25 W PPS",
+        "Light"
+      ],
+      "cons_en": [
+        "10,000 mAh: just over one full charge"
+      ],
+      "capacityMah": 10000
     },
     {
       "id": "xiaomi-power-bank-20000",
@@ -9043,6 +9978,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Xiaomi+power+bank+20000",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9057,7 +9999,22 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Mucha capacidad por poco dinero"
+      ],
+      "cons": [
+        "Pesa bastante",
+        "Sin PPS"
+      ],
+      "pros_en": [
+        "Lots of capacity for little money"
+      ],
+      "cons_en": [
+        "Fairly heavy",
+        "No PPS"
+      ],
+      "capacityMah": 20000
     },
     {
       "id": "anker-737-powerbank",
@@ -9081,6 +10038,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+737+power+bank",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9094,7 +10058,22 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 3
+      "priceTier": 3,
+      "pros": [
+        "Carga hasta un portátil",
+        "Pantalla con el porcentaje y los vatios"
+      ],
+      "cons": [
+        "Cara y pesada para el día a día"
+      ],
+      "pros_en": [
+        "Charges even a laptop",
+        "Display showing percentage and watts"
+      ],
+      "cons_en": [
+        "Expensive and heavy for everyday use"
+      ],
+      "capacityMah": 24000
     },
     {
       "id": "samsung-wireless-15w",
@@ -9117,6 +10096,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Samsung+cargador+inal%C3%A1mbrico+15W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9129,7 +10115,21 @@
         ]
       },
       "kind": "official",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Oficial y cómoda: lo dejas encima y carga"
+      ],
+      "cons": [
+        "Más lenta que por cable",
+        "Se calienta más"
+      ],
+      "pros_en": [
+        "Official and convenient: just set it down"
+      ],
+      "cons_en": [
+        "Slower than a cable",
+        "Runs warmer"
+      ]
     },
     {
       "id": "belkin-qi2-15w",
@@ -9153,6 +10153,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Belkin+Qi2+15W",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9165,7 +10172,19 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 2
+      "priceTier": 2,
+      "pros": [
+        "Imán Qi2: queda bien alineado"
+      ],
+      "cons": [
+        "Solo en móviles con Qi2"
+      ],
+      "pros_en": [
+        "Qi2 magnet: stays aligned"
+      ],
+      "cons_en": [
+        "Only for phones with Qi2"
+      ]
     },
     {
       "id": "anker-313-wireless",
@@ -9188,6 +10207,13 @@
           "countries": [
             "ES"
           ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+cargador+inal%C3%A1mbrico",
+          "countries": [
+            "ES"
+          ]
         }
       ],
       "targeting": {
@@ -9200,7 +10226,320 @@
         ]
       },
       "kind": "brand",
-      "priceTier": 1
+      "priceTier": 1,
+      "pros": [
+        "Barata, perfecta para la mesilla"
+      ],
+      "cons": [
+        "Lenta (10 W)"
+      ],
+      "pros_en": [
+        "Cheap, perfect for the bedside table"
+      ],
+      "cons_en": [
+        "Slow (10 W)"
+      ]
+    },
+    {
+      "id": "iniu-10000",
+      "type": "powerbank",
+      "brand": "INIU",
+      "name": "Batería externa INIU 10.000 mAh 22,5 W",
+      "name_en": "INIU 10,000 mAh 22.5 W power bank",
+      "watts": 22.5,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Fina y ligera, de las más vendidas en Amazon.",
+      "description_en": "Slim and light, one of Amazon's best sellers.",
+      "sponsored": false,
+      "priority": 44,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=INIU+power+bank+10000mAh+22.5W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+10000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "pps",
+          "xiaomi-turbo",
+          "supervooc"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Muy fina y ligera",
+        "Una de las más vendidas"
+      ],
+      "cons": [
+        "Sin PPS: los Samsung no pasan de unos 15 W"
+      ],
+      "pros_en": [
+        "Very slim and light",
+        "One of the best sellers"
+      ],
+      "cons_en": [
+        "No PPS: Samsung phones stay around 15 W"
+      ],
+      "capacityMah": 10000
+    },
+    {
+      "id": "iniu-20000",
+      "type": "powerbank",
+      "brand": "INIU",
+      "name": "Batería externa INIU 20.000 mAh 22,5 W",
+      "name_en": "INIU 20,000 mAh 22.5 W power bank",
+      "watts": 22.5,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Mucha capacidad a buen precio y muy bien valorada.",
+      "description_en": "Lots of capacity at a good price, very well rated.",
+      "sponsored": false,
+      "priority": 43,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=INIU+power+bank+20000mAh+22.5W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+20000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "pps",
+          "xiaomi-turbo",
+          "supervooc"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Mucha capacidad a buen precio",
+        "Muy bien valorada"
+      ],
+      "cons": [
+        "Más pesada que una de 10.000"
+      ],
+      "pros_en": [
+        "Lots of capacity at a good price",
+        "Very well rated"
+      ],
+      "cons_en": [
+        "Heavier than a 10,000 one"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "anker-zolo-20000",
+      "type": "powerbank",
+      "brand": "Anker",
+      "name": "Anker Zolo 20.000 mAh con cable USB-C",
+      "name_en": "Anker Zolo 20,000 mAh with USB-C cable",
+      "watts": 30,
+      "protocols": [
+        "usb-pd"
+      ],
+      "description": "Con el cable integrado: siempre lo llevas encima.",
+      "description_en": "With a built-in cable: you always have it with you.",
+      "sponsored": false,
+      "priority": 42,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Anker+Zolo+power+bank+20000mAh&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Zolo+20000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2,
+      "pros": [
+        "Cable USB-C integrado: no se te olvida",
+        "Marca fiable"
+      ],
+      "cons": [
+        "Algo voluminosa"
+      ],
+      "pros_en": [
+        "Built-in USB-C cable: you won't forget it",
+        "Reliable brand"
+      ],
+      "cons_en": [
+        "A bit bulky"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "baseus-20000-45w",
+      "type": "powerbank",
+      "brand": "Baseus",
+      "name": "Batería externa Baseus 20.000 mAh 45 W",
+      "name_en": "Baseus 20,000 mAh 45 W power bank",
+      "watts": 45,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "45 W y cable integrado: rápida incluso con móviles potentes.",
+      "description_en": "45 W and a built-in cable: fast even with powerful phones.",
+      "sponsored": false,
+      "priority": 41,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Baseus+power+bank+20000mAh+45W+cable+integrado&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Baseus+power+bank+20000+45W",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2,
+      "pros": [
+        "45 W: carga rápido incluso Samsung de 45 W",
+        "Cable integrado"
+      ],
+      "cons": [
+        "Pesada"
+      ],
+      "pros_en": [
+        "45 W: fast even for 45 W Samsung phones",
+        "Built-in cable"
+      ],
+      "cons_en": [
+        "Heavy"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "redmi-power-bank-10000",
+      "type": "powerbank",
+      "brand": "Xiaomi",
+      "name": "Redmi Power Bank 10.000 mAh 18 W",
+      "name_en": "Redmi Power Bank 10,000 mAh 18 W",
+      "watts": 18,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Muy barata, ideal para Xiaomi y Redmi.",
+      "description_en": "Very cheap, great for Xiaomi and Redmi.",
+      "sponsored": false,
+      "priority": 40,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Redmi+power+bank+10000mAh+18W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Redmi+power+bank+10000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "xiaomi-turbo"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Muy barata",
+        "Ideal para Xiaomi y Redmi"
+      ],
+      "cons": [
+        "Lenta para móviles de más de 18 W"
+      ],
+      "pros_en": [
+        "Very cheap",
+        "Great for Xiaomi and Redmi"
+      ],
+      "cons_en": [
+        "Slow for phones above 18 W"
+      ],
+      "capacityMah": 10000
     }
   ],
   "protocols_en": {
