@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 14,
+  "catalogVersion": 16,
   "updatedAt": "2026-10-02",
   "protocols": {
     "usb-pd": "USB Power Delivery (USB-C PD)",
@@ -8792,6 +8792,307 @@
       ]
     },
     {
+      "id": "iniu-10000",
+      "type": "powerbank",
+      "brand": "INIU",
+      "name": "Batería externa INIU 10.000 mAh 22,5 W",
+      "name_en": "INIU 10,000 mAh 22.5 W power bank",
+      "watts": 22.5,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Fina y ligera, de las más vendidas en Amazon.",
+      "description_en": "Slim and light, one of Amazon's best sellers.",
+      "sponsored": false,
+      "priority": 44,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=INIU+power+bank+10000mAh+22.5W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+10000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "pps",
+          "xiaomi-turbo",
+          "supervooc"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Muy fina y ligera",
+        "Una de las más vendidas"
+      ],
+      "cons": [
+        "Sin PPS: los Samsung no pasan de unos 15 W"
+      ],
+      "pros_en": [
+        "Very slim and light",
+        "One of the best sellers"
+      ],
+      "cons_en": [
+        "No PPS: Samsung phones stay around 15 W"
+      ],
+      "capacityMah": 10000
+    },
+    {
+      "id": "iniu-20000",
+      "type": "powerbank",
+      "brand": "INIU",
+      "name": "Batería externa INIU 20.000 mAh 22,5 W",
+      "name_en": "INIU 20,000 mAh 22.5 W power bank",
+      "watts": 22.5,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Mucha capacidad a buen precio y muy bien valorada.",
+      "description_en": "Lots of capacity at a good price, very well rated.",
+      "sponsored": false,
+      "priority": 43,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=INIU+power+bank+20000mAh+22.5W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+20000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "pps",
+          "xiaomi-turbo",
+          "supervooc"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Mucha capacidad a buen precio",
+        "Muy bien valorada"
+      ],
+      "cons": [
+        "Más pesada que una de 10.000"
+      ],
+      "pros_en": [
+        "Lots of capacity at a good price",
+        "Very well rated"
+      ],
+      "cons_en": [
+        "Heavier than a 10,000 one"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "anker-zolo-20000",
+      "type": "powerbank",
+      "brand": "Anker",
+      "name": "Anker Zolo 20.000 mAh con cable USB-C",
+      "name_en": "Anker Zolo 20,000 mAh with USB-C cable",
+      "watts": 30,
+      "protocols": [
+        "usb-pd"
+      ],
+      "description": "Con el cable integrado: siempre lo llevas encima.",
+      "description_en": "With a built-in cable: you always have it with you.",
+      "sponsored": false,
+      "priority": 42,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Anker+Zolo+power+bank+20000mAh&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Zolo+20000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2,
+      "pros": [
+        "Cable USB-C integrado: no se te olvida",
+        "Marca fiable"
+      ],
+      "cons": [
+        "Algo voluminosa"
+      ],
+      "pros_en": [
+        "Built-in USB-C cable: you won't forget it",
+        "Reliable brand"
+      ],
+      "cons_en": [
+        "A bit bulky"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "baseus-20000-45w",
+      "type": "powerbank",
+      "brand": "Baseus",
+      "name": "Batería externa Baseus 20.000 mAh 45 W",
+      "name_en": "Baseus 20,000 mAh 45 W power bank",
+      "watts": 45,
+      "protocols": [
+        "usb-pd",
+        "pps"
+      ],
+      "description": "45 W y cable integrado: rápida incluso con móviles potentes.",
+      "description_en": "45 W and a built-in cable: fast even with powerful phones.",
+      "sponsored": false,
+      "priority": 41,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Baseus+power+bank+20000mAh+45W+cable+integrado&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Baseus+power+bank+20000+45W",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "pps"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 2,
+      "pros": [
+        "45 W: carga rápido incluso Samsung de 45 W",
+        "Cable integrado"
+      ],
+      "cons": [
+        "Pesada"
+      ],
+      "pros_en": [
+        "45 W: fast even for 45 W Samsung phones",
+        "Built-in cable"
+      ],
+      "cons_en": [
+        "Heavy"
+      ],
+      "capacityMah": 20000
+    },
+    {
+      "id": "redmi-power-bank-10000",
+      "type": "powerbank",
+      "brand": "Xiaomi",
+      "name": "Redmi Power Bank 10.000 mAh 18 W",
+      "name_en": "Redmi Power Bank 10,000 mAh 18 W",
+      "watts": 18,
+      "protocols": [
+        "usb-pd",
+        "qc"
+      ],
+      "description": "Muy barata, ideal para Xiaomi y Redmi.",
+      "description_en": "Very cheap, great for Xiaomi and Redmi.",
+      "sponsored": false,
+      "priority": 40,
+      "offers": [
+        {
+          "store": "Amazon",
+          "url": "https://www.amazon.es/s?k=Redmi+power+bank+10000mAh+18W&tag=drubtech-21",
+          "countries": [
+            "ES"
+          ]
+        },
+        {
+          "store": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/search.html?query=Redmi+power+bank+10000",
+          "countries": [
+            "ES"
+          ]
+        }
+      ],
+      "targeting": {
+        "minSdk": 26,
+        "protocolsAny": [
+          "usb-pd",
+          "qc",
+          "xiaomi-turbo"
+        ],
+        "showWhen": [
+          "CATALOG"
+        ]
+      },
+      "kind": "brand",
+      "priceTier": 1,
+      "pros": [
+        "Muy barata",
+        "Ideal para Xiaomi y Redmi"
+      ],
+      "cons": [
+        "Lenta para móviles de más de 18 W"
+      ],
+      "pros_en": [
+        "Very cheap",
+        "Great for Xiaomi and Redmi"
+      ],
+      "cons_en": [
+        "Slow for phones above 18 W"
+      ],
+      "capacityMah": 10000
+    },
+    {
       "id": "anker-nano-20w",
       "type": "charger",
       "brand": "Anker",
@@ -9560,7 +9861,8 @@
       "name_en": "Motorola TurboPower 68 W + cable",
       "watts": 68,
       "protocols": [
-        "usb-pd"
+        "usb-pd",
+        "pps"
       ],
       "description": "El oficial de Motorola para los edge de 68 W. Es USB-C PD: también sirve para otras marcas.",
       "description_en": "Motorola's official charger for 68 W edge phones. It's USB-C PD, so it works with other brands too.",
@@ -9597,17 +9899,20 @@
       "priceTier": 2,
       "includesCable": true,
       "pros": [
-        "Oficial y USB-C PD: sirve para casi cualquier móvil"
+        "Oficial, con cable de 6,5 A",
+        "USB-C PD: sirve para casi cualquier móvil"
       ],
       "cons": [
-        "Más caro que uno genérico de la misma potencia"
+        "Sus 68 W solo con móviles Motorola: con otras marcas da unos 30 W (PPS a 3 A)"
       ],
       "pros_en": [
-        "Official and USB-C PD: works with almost any phone"
+        "Official, with a 6.5 A cable",
+        "USB-C PD: works with almost any phone"
       ],
       "cons_en": [
-        "Pricier than a generic one of the same power"
-      ]
+        "Its 68 W only with Motorola phones: other brands get about 30 W (PPS at 3 A)"
+      ],
+      "ppsWatts": 33
     },
     {
       "id": "honor-supercharge-66w",
@@ -10239,307 +10544,6 @@
       "cons_en": [
         "Slow (10 W)"
       ]
-    },
-    {
-      "id": "iniu-10000",
-      "type": "powerbank",
-      "brand": "INIU",
-      "name": "Batería externa INIU 10.000 mAh 22,5 W",
-      "name_en": "INIU 10,000 mAh 22.5 W power bank",
-      "watts": 22.5,
-      "protocols": [
-        "usb-pd",
-        "qc"
-      ],
-      "description": "Fina y ligera, de las más vendidas en Amazon.",
-      "description_en": "Slim and light, one of Amazon's best sellers.",
-      "sponsored": false,
-      "priority": 44,
-      "offers": [
-        {
-          "store": "Amazon",
-          "url": "https://www.amazon.es/s?k=INIU+power+bank+10000mAh+22.5W&tag=drubtech-21",
-          "countries": [
-            "ES"
-          ]
-        },
-        {
-          "store": "MediaMarkt",
-          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+10000",
-          "countries": [
-            "ES"
-          ]
-        }
-      ],
-      "targeting": {
-        "minSdk": 26,
-        "protocolsAny": [
-          "usb-pd",
-          "qc",
-          "pps",
-          "xiaomi-turbo",
-          "supervooc"
-        ],
-        "showWhen": [
-          "CATALOG"
-        ]
-      },
-      "kind": "brand",
-      "priceTier": 1,
-      "pros": [
-        "Muy fina y ligera",
-        "Una de las más vendidas"
-      ],
-      "cons": [
-        "Sin PPS: los Samsung no pasan de unos 15 W"
-      ],
-      "pros_en": [
-        "Very slim and light",
-        "One of the best sellers"
-      ],
-      "cons_en": [
-        "No PPS: Samsung phones stay around 15 W"
-      ],
-      "capacityMah": 10000
-    },
-    {
-      "id": "iniu-20000",
-      "type": "powerbank",
-      "brand": "INIU",
-      "name": "Batería externa INIU 20.000 mAh 22,5 W",
-      "name_en": "INIU 20,000 mAh 22.5 W power bank",
-      "watts": 22.5,
-      "protocols": [
-        "usb-pd",
-        "qc"
-      ],
-      "description": "Mucha capacidad a buen precio y muy bien valorada.",
-      "description_en": "Lots of capacity at a good price, very well rated.",
-      "sponsored": false,
-      "priority": 43,
-      "offers": [
-        {
-          "store": "Amazon",
-          "url": "https://www.amazon.es/s?k=INIU+power+bank+20000mAh+22.5W&tag=drubtech-21",
-          "countries": [
-            "ES"
-          ]
-        },
-        {
-          "store": "MediaMarkt",
-          "url": "https://www.mediamarkt.es/es/search.html?query=INIU+power+bank+20000",
-          "countries": [
-            "ES"
-          ]
-        }
-      ],
-      "targeting": {
-        "minSdk": 26,
-        "protocolsAny": [
-          "usb-pd",
-          "qc",
-          "pps",
-          "xiaomi-turbo",
-          "supervooc"
-        ],
-        "showWhen": [
-          "CATALOG"
-        ]
-      },
-      "kind": "brand",
-      "priceTier": 1,
-      "pros": [
-        "Mucha capacidad a buen precio",
-        "Muy bien valorada"
-      ],
-      "cons": [
-        "Más pesada que una de 10.000"
-      ],
-      "pros_en": [
-        "Lots of capacity at a good price",
-        "Very well rated"
-      ],
-      "cons_en": [
-        "Heavier than a 10,000 one"
-      ],
-      "capacityMah": 20000
-    },
-    {
-      "id": "anker-zolo-20000",
-      "type": "powerbank",
-      "brand": "Anker",
-      "name": "Anker Zolo 20.000 mAh con cable USB-C",
-      "name_en": "Anker Zolo 20,000 mAh with USB-C cable",
-      "watts": 30,
-      "protocols": [
-        "usb-pd"
-      ],
-      "description": "Con el cable integrado: siempre lo llevas encima.",
-      "description_en": "With a built-in cable: you always have it with you.",
-      "sponsored": false,
-      "priority": 42,
-      "offers": [
-        {
-          "store": "Amazon",
-          "url": "https://www.amazon.es/s?k=Anker+Zolo+power+bank+20000mAh&tag=drubtech-21",
-          "countries": [
-            "ES"
-          ]
-        },
-        {
-          "store": "MediaMarkt",
-          "url": "https://www.mediamarkt.es/es/search.html?query=Anker+Zolo+20000",
-          "countries": [
-            "ES"
-          ]
-        }
-      ],
-      "targeting": {
-        "minSdk": 26,
-        "protocolsAny": [
-          "usb-pd",
-          "pps"
-        ],
-        "showWhen": [
-          "CATALOG"
-        ]
-      },
-      "kind": "brand",
-      "priceTier": 2,
-      "pros": [
-        "Cable USB-C integrado: no se te olvida",
-        "Marca fiable"
-      ],
-      "cons": [
-        "Algo voluminosa"
-      ],
-      "pros_en": [
-        "Built-in USB-C cable: you won't forget it",
-        "Reliable brand"
-      ],
-      "cons_en": [
-        "A bit bulky"
-      ],
-      "capacityMah": 20000
-    },
-    {
-      "id": "baseus-20000-45w",
-      "type": "powerbank",
-      "brand": "Baseus",
-      "name": "Batería externa Baseus 20.000 mAh 45 W",
-      "name_en": "Baseus 20,000 mAh 45 W power bank",
-      "watts": 45,
-      "protocols": [
-        "usb-pd",
-        "pps"
-      ],
-      "description": "45 W y cable integrado: rápida incluso con móviles potentes.",
-      "description_en": "45 W and a built-in cable: fast even with powerful phones.",
-      "sponsored": false,
-      "priority": 41,
-      "offers": [
-        {
-          "store": "Amazon",
-          "url": "https://www.amazon.es/s?k=Baseus+power+bank+20000mAh+45W+cable+integrado&tag=drubtech-21",
-          "countries": [
-            "ES"
-          ]
-        },
-        {
-          "store": "MediaMarkt",
-          "url": "https://www.mediamarkt.es/es/search.html?query=Baseus+power+bank+20000+45W",
-          "countries": [
-            "ES"
-          ]
-        }
-      ],
-      "targeting": {
-        "minSdk": 26,
-        "protocolsAny": [
-          "usb-pd",
-          "pps"
-        ],
-        "showWhen": [
-          "CATALOG"
-        ]
-      },
-      "kind": "brand",
-      "priceTier": 2,
-      "pros": [
-        "45 W: carga rápido incluso Samsung de 45 W",
-        "Cable integrado"
-      ],
-      "cons": [
-        "Pesada"
-      ],
-      "pros_en": [
-        "45 W: fast even for 45 W Samsung phones",
-        "Built-in cable"
-      ],
-      "cons_en": [
-        "Heavy"
-      ],
-      "capacityMah": 20000
-    },
-    {
-      "id": "redmi-power-bank-10000",
-      "type": "powerbank",
-      "brand": "Xiaomi",
-      "name": "Redmi Power Bank 10.000 mAh 18 W",
-      "name_en": "Redmi Power Bank 10,000 mAh 18 W",
-      "watts": 18,
-      "protocols": [
-        "usb-pd",
-        "qc"
-      ],
-      "description": "Muy barata, ideal para Xiaomi y Redmi.",
-      "description_en": "Very cheap, great for Xiaomi and Redmi.",
-      "sponsored": false,
-      "priority": 40,
-      "offers": [
-        {
-          "store": "Amazon",
-          "url": "https://www.amazon.es/s?k=Redmi+power+bank+10000mAh+18W&tag=drubtech-21",
-          "countries": [
-            "ES"
-          ]
-        },
-        {
-          "store": "MediaMarkt",
-          "url": "https://www.mediamarkt.es/es/search.html?query=Redmi+power+bank+10000",
-          "countries": [
-            "ES"
-          ]
-        }
-      ],
-      "targeting": {
-        "minSdk": 26,
-        "protocolsAny": [
-          "usb-pd",
-          "qc",
-          "xiaomi-turbo"
-        ],
-        "showWhen": [
-          "CATALOG"
-        ]
-      },
-      "kind": "brand",
-      "priceTier": 1,
-      "pros": [
-        "Muy barata",
-        "Ideal para Xiaomi y Redmi"
-      ],
-      "cons": [
-        "Lenta para móviles de más de 18 W"
-      ],
-      "pros_en": [
-        "Very cheap",
-        "Great for Xiaomi and Redmi"
-      ],
-      "cons_en": [
-        "Slow for phones above 18 W"
-      ],
-      "capacityMah": 10000
     }
   ],
   "protocols_en": {
